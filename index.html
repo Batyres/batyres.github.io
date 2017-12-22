@@ -15,6 +15,12 @@
 $(document).ready(function()
 {
    $("#LayerText_dondy_batyr").stickylayer({orientation: 5, position: [0, 0], delay: 500});
+$(window).load(function() {
+
+ $(".loader_inner").fadeOut();
+ $(".loader").delay(400).fadeOut("slow");
+
+});
 });
 </script>
 </head>
@@ -39,5 +45,10 @@ $(document).ready(function()
 <img src="images/Text_dondy_batyr2.png" id="ImageText_dondy_batyr" alt=""></div>
 </div>
 </div>
+<!--preloader-->
+<div class="loader">
+ <div class="loader_inner"></div>
+</div>
+<!--/preloader-->
 </body>
 </html>
