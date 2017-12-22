@@ -71,3 +71,29 @@ body
    width: 100%;
    height: 100%;
 }
+.loader {
+ background: none repeat scroll 0 0 #007622;
+ bottom: 0;
+ height: 100%;
+ left: 0;
+ position: fixed;
+ right: 0;
+ top: 0;
+ width: 100%;
+ z-index:10000!important;
+}
+.loader .loader_inner {
+ background-image: url("../images/knopka_steklo.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-posirion: center center;
+ background-color: #007622;
+ height: 64px;
+ width: 64px;
+ margin-top: -32px;
+ margin-left: -32px;
+ left: 50%;
+ top: 50%;
+ position: absolute;
+ 
+}
