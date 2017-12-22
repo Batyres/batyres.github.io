@@ -1,0 +1,73 @@
+body
+{
+   background-color: #007622;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#LayerGlavnyi
+{
+   background-color: transparent;
+   background-image: none;
+}
+#ImageKnopka_play_uzor
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageSoldyr
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#LayerKnopka_play
+{
+   background-color: transparent;
+   background-image: url(../images/knopka_play.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+}
+#ImageKnopka_steklo
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageText_soldyr
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#LayerText_dondy_batyr
+{
+   background-color: transparent;
+   background-image: none;
+}
+#ImageText_dondy_batyr
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
