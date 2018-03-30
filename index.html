@@ -7,42 +7,72 @@
 <link href="css/batyres.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
 <script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/wb.lazyload.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
-<script src="js/wb.stickylayer.min.js"></script>
 <script src="js/wb.rotate.min.js"></script>
 <script src="js/wwb12.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   $("#LayerText_dondy_batyr").stickylayer({orientation: 5, position: [0, 0], delay: 500});
 $(window).load(function() {
 
  $(".loader_inner").fadeOut();
  $(".loader").delay(400).fadeOut("slow");
 
 });
+   $('img[data-src]').lazyload();
 });
 </script>
 </head>
 <body>
-<div id="LayerGlavnyi" style="position:absolute;text-align:center;left:35.9794%;top:20.262%;width:573px;height:502px;z-index:7;">
-<div id="LayerGlavnyi_Container" style="width:573px;height:502px;position:relative;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto;text-align:left;">
-<div id="wb_ImageSoldyr" style="position:absolute;left:70px;top:35px;width:433px;height:433px;z-index:1;">
-<img src="images/soldyr.png" id="ImageSoldyr" alt=""></div>
-<div id="wb_ImageText_soldyr" style="position:absolute;left:173px;top:130px;width:245px;height:88px;visibility:hidden;z-index:2;">
-<img src="images/text_soldyr.png" id="ImageText_soldyr" alt=""></div>
-<div id="wb_ImageKnopka_steklo" style="position:absolute;left:70px;top:34px;width:433px;height:433px;z-index:3;">
-<img src="images/knopka_steklo.png" id="ImageKnopka_steklo" alt=""></div>
-<div id="LayerKnopka_play" style="position:absolute;text-align:left;left:98px;top:63px;width:379px;height:379px;z-index:4;cursor: pointer;" onclick="Animate('LayerKnopka_play', '', '', '', '', '0', 500, '360');ShowObject('LayerKnopka_play', 0);AnimateCss('wb_ImageKnopka_steklo', 'hole-in', 0, 500);ShowObjectWithEffect('wb_ImageText_soldyr', 1, 'dropdown', 800);Animate('LayerGlavnyi', '10', '', '', '', '', 500, '');Animate('LayerText_dondy_batyr', '', '-300', '', '', '', 1500, '');return false;" onmouseleave="ShowObjectWithEffect('wb_ImageKnopka_play_uzor', 0, 'fade', 100);return false;" onmousemove="ShowObjectWithEffect('wb_ImageKnopka_play_uzor', 1, 'fade', 500, 'easeOutQuad');return false;">
-<div id="wb_ImageKnopka_play_uzor" style="position:absolute;left:0px;top:0px;width:378px;height:378px;visibility:hidden;z-index:0;">
+<div id="LayerText2" style="position:absolute;text-align:center;left:31.5464%;top:1578px;width:779px;height:485px;z-index:19;">
+<div id="LayerText2_Container" style="width:779px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<textarea name="TextArea1" id="TextArea2" style="position:absolute;left:16px;top:26px;width:738px;height:430px;z-index:0;" rows="16" cols="72" readonly disabled spellcheck="false">Идна остался на отцовом угодье - Иднакар. Сам отец, Донды, с младшими сыновьями отправился вверх по реке Пызеп, в верстах пятнадцати к северо-западу основал себе новое городище - Дондыкар. Гурья выбрал для себя крутую гору выше по течению реки Чепцы, городище - Гурьякар.</textarea>
+</div>
+</div>
+<div id="LayerText1" style="position:absolute;text-align:center;left:31.5464%;top:1578px;width:779px;height:485px;z-index:20;">
+<div id="LayerText1_Container" style="width:779px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:16px;top:26px;width:738px;height:430px;z-index:3;" rows="16" cols="72" readonly disabled spellcheck="false">В краю Донды батыра
+
+Давным-давно на гору Солдырь откуда-то пришел удмуртский батыр Донды, и остался тут жить. И было у него два сына - Идна и Гурья. На Солдыре у него родились еще несколько сыновей, среди них Весья и Зуй. Время шло, сыновья подрастали, и стало им тесно на одном месте.</textarea>
+</div>
+</div>
+<div id="LayerGlavnyi" style="position:absolute;text-align:center;left:36.701%;top:224px;width:573px;height:502px;z-index:21;">
+<div id="LayerGlavnyi_Container" style="width:573px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_ImageIdna" style="position:absolute;left:71px;top:35px;width:433px;height:433px;z-index:5;">
+<img src="images/placeholder.gif" data-src="images/idnakar.png" id="ImageIdna" alt=""></div>
+<div id="wb_ImageImiaIdna" style="position:absolute;left:177px;top:107px;width:239px;height:84px;visibility:hidden;z-index:6;">
+<img src="images/Textidnakar.png" id="ImageImiaIdna" alt=""></div>
+<div id="wb_ImageGuryakar" style="position:absolute;left:71px;top:35px;width:433px;height:433px;z-index:7;">
+<img src="images/placeholder.gif" data-src="images/guryakar.png" id="ImageGuryakar" alt=""></div>
+<div id="wb_ImageTextGuryakar" style="position:absolute;left:176px;top:114px;width:229px;height:61px;z-index:8;">
+<img src="images/placeholder.gif" data-src="images/Textguryakar.png" id="ImageTextGuryakar" alt=""></div>
+<div id="wb_ImageStekloGuryakar" style="position:absolute;left:70px;top:34px;width:433px;height:433px;z-index:9;">
+<a href="#" onclick="Animate('LayerText1', '', '-500', '', '', '', 1500, '');Animate('LayerText2', '', '600', '', '', '', 1500, '');ShowObjectWithEffect('wb_ImageSoldyr', 0, 'fade', 2000);Animate('LayerGlavnyi', '', '10', '', '', '', 2000, '');ShowObjectWithEffect('wb_ImageText_soldyr', 0, 'dropup', 600);ShowObjectWithEffect('wb_ImageImiaIdna', 1, 'dropdown', 1000);Animate('wb_ImageDondy', '550', '45', '', '', '', 1500, '');return false;"><img src="images/placeholder.gif" data-src="images/knopka_steklo.png" id="ImageStekloGuryakar" alt=""></a></div>
+<div id="wb_ImageDondy" style="position:absolute;left:68px;top:36px;width:433px;height:433px;z-index:10;">
+<img src="images/placeholder.gif" data-src="images/dondykar.png" id="ImageDondy" alt=""></div>
+<div id="wb_ImageTextDondy" style="position:absolute;left:137px;top:133px;width:293px;height:84px;z-index:11;">
+<img src="images/placeholder.gif" data-src="images/TextDondy.png" id="ImageTextDondy" alt=""></div>
+<div id="wb_ImageStekloDondy" style="position:absolute;left:70px;top:34px;width:433px;height:433px;z-index:12;">
+<a href="./page1.html"><img src="images/placeholder.gif" data-src="images/knopka_steklo.png" id="ImageStekloDondy" alt=""></a></div>
+<div id="wb_ImageSoldyr" style="position:absolute;left:70px;top:35px;width:433px;height:433px;z-index:13;">
+<img src="images/placeholder.gif" data-src="images/soldyr.png" id="ImageSoldyr" alt=""></div>
+<div id="wb_ImageText_soldyr" style="position:absolute;left:173px;top:130px;width:245px;height:88px;z-index:14;">
+<img src="images/placeholder.gif" data-src="images/text_soldyr.png" id="ImageText_soldyr" alt=""></div>
+<div id="wb_ImageKnopka_steklo" style="position:absolute;left:70px;top:34px;width:433px;height:433px;z-index:15;">
+<a href="#" onclick="Animate('wb_ImageGuryakar', '1023', '45', '', '', '', 1500, '');Animate('wb_ImageTextGuryakar', '1128', '117', '', '', '', 1500, '');Animate('wb_ImageStekloGuryakar', '1023', '45', '', '', '', 1500, '');Animate('LayerText1', '', '-500', '', '', '', 1500, '');Animate('LayerText2', '430', '600', '', '', '', 2000, '');ShowObjectWithEffect('wb_ImageSoldyr', 0, 'fade', 2000);Animate('LayerGlavnyi', '', '10', '', '', '', 2000, '');ShowObjectWithEffect('wb_ImageText_soldyr', 0, 'dropup', 600);ShowObjectWithEffect('wb_ImageImiaIdna', 1, 'dropdown', 1000);Animate('wb_ImageDondy', '550', '45', '', '', '', 1500, '');Animate('wb_ImageStekloDondy', '550', '45', '', '', '', 1500, '');Animate('wb_ImageTextDondy', '621', '140', '', '', '', 1500, '');return false;"><img src="images/placeholder.gif" data-src="images/knopka_steklo.png" id="ImageKnopka_steklo" alt=""></a></div>
+<div id="LayerKnopka_play" style="position:absolute;text-align:center;left:98px;top:63px;width:379px;height:379px;z-index:16;cursor: pointer;" onclick="Animate('LayerKnopka_play', '', '', '', '', '0', 500, '360');ShowObject('LayerKnopka_play', 0);AnimateCss('wb_ImageKnopka_steklo', 'hole-in', 0, 500);ShowObjectWithEffect('wb_ImageText_soldyr', 1, 'dropdown', 800);Animate('LayerGlavnyi', '10', '', '', '', '', 500, '');Animate('LayerText_dondy_batyr', '', '-300', '', '', '', 1500, '');ShowObjectWithEffect('LayerText_Nachalo', 1, 'dropdown', 500);Animate('LayerText1', '', '350', '', '', '', 1500, '');Animate('LayerIdnakar', '10', '', '', '', '', 500, '');return false;" onmouseleave="ShowObjectWithEffect('wb_ImageKnopka_play_uzor', 0, 'fade', 100);return false;" onmousemove="ShowObjectWithEffect('wb_ImageKnopka_play_uzor', 1, 'fade', 500, 'easeOutQuad');return false;">
+<div id="LayerKnopka_play_Container" style="width:379px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_ImageKnopka_play_uzor" style="position:absolute;left:0px;top:0px;width:378px;height:378px;visibility:hidden;z-index:4;">
 <img src="images/knopka_play_uzor.png" id="ImageKnopka_play_uzor" alt=""></div>
 </div>
 </div>
 </div>
-<div id="LayerText_dondy_batyr" style="position:absolute;text-align:center;left:20px;top:20px;width:780px;height:212px;z-index:8;">
+</div>
+<div id="LayerText_dondy_batyr" style="position:absolute;text-align:center;left:31.4433%;top:0px;width:780px;height:212px;z-index:22;">
 <div id="LayerText_dondy_batyr_Container" style="width:780px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_ImageText_dondy_batyr" style="position:absolute;left:17px;top:48px;width:746px;height:117px;z-index:6;">
-<img src="images/Text_dondy_batyr2.png" id="ImageText_dondy_batyr" alt=""></div>
+<div id="wb_ImageText_dondy_batyr" style="position:absolute;left:17px;top:48px;width:746px;height:117px;z-index:17;">
+<img src="images/placeholder.gif" data-src="images/Text_dondy_batyr2.png" id="ImageText_dondy_batyr" alt=""></div>
 </div>
 </div>
 <!--preloader-->
