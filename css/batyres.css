@@ -25,22 +25,14 @@
 }
 a
 {
+   color: #007622;
    outline: none;
-   color: #0000FF;
-   text-decoration: underline;
-}
-a:visited
-{
-   color: #800080;
-}
-a:active
-{
-   color: #FF0000;
+   text-decoration: none;
 }
 a:hover
 {
-   color: #0000FF;
-   text-decoration: underline;
+   color: #007622;
+   text-decoration: none;
 }
 h1
 {

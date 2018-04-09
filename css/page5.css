@@ -1,0 +1,261 @@
+body
+{
+   background-color: #007622;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#LayerText2
+{
+   background-color: #007622;
+   background-image: none;
+}
+#TextArea2
+{
+   border: 0px transparent solid;
+   background-color: transparent;
+   background-image: none;
+   color :#FFFFFF;
+   font-family: Verdana;
+   font-weight: normal;
+   font-size: 20px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#LayerObschiy5
+{
+   background-color: transparent;
+   background-image: none;
+}
+#LayerGlavnyi5
+{
+   background-color: transparent;
+   background-image: none;
+}
+#ImageMenuGorodicheVesya
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageStrelka4
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#LayerStrelkaNazad4
+{
+   background-color: transparent;
+   background-image: none;
+}
+#ImageKrugVesya
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer1
+{
+   background-color: #007622;
+   background-image: none;
+}
+#TextArea3
+{
+   border: 0px transparent solid;
+   background-color: transparent;
+   background-image: none;
+   color :#FFFFFF;
+   font-family: Verdana;
+   font-weight: normal;
+   font-size: 20px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#LayerTextGorVesya .modal-content
+{
+   background-color: transparent;
+   background-image: url(../images/page5_LayerTextGorVesya_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 5px #CCCCCC dashed;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerTextGorVesya.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerTextGorVesya.fade.in
+{
+   opacity: 1;
+}
+#LayerTextGorVesya.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerTextGorVesya .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerTextGorVesya .modal-open
+{
+   overflow: hidden;
+}
+#LayerTextGorVesya .modal-dialog
+{
+   position: relative;
+   width: 1059px;
+   margin: 30px auto;
+}
+#LayerTextGorVesya .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerTextGorVesya .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerTextGorVesya .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerTextGorVesya .modal-body
+{
+   position: relative;
+   width: 1059px;
+   height: 708px;
+}
+#LayerTextGorVesya .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#TextArea37
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea37:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+.loader {
+ background: none repeat scroll 0 0 #007622;
+ bottom: 0;
+ height: 100%;
+ left: 0;
+ position: fixed;
+ right: 0;
+ top: 0;
+ width: 100%;
+ z-index:10000!important;
+}
+.loader .loader_inner {
+ background-image: url("../images/knopka_steklo.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-posirion: center center;
+ background-color: #007622;
+ height: 64px;
+ width: 64px;
+ margin-top: -32px;
+ margin-left: -32px;
+ left: 50%;
+ top: 50%;
+ position: absolute;
+ 
+}

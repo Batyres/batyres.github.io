@@ -28,17 +28,17 @@ body
    overflow: auto;
    resize: none;
 }
-#LayerObschiy4
+#LayerObschiy2
 {
    background-color: transparent;
    background-image: none;
 }
-#LayerGlavnyi4
+#LayerGlavnyi2
 {
    background-color: transparent;
    background-image: none;
 }
-#ImageDondy
+#ImageMenuLegendaDondykara
 {
    border: 0px #000000 solid;
    padding: 0px 0px 0px 0px;
@@ -47,7 +47,7 @@ body
    width: 100%;
    height: 100%;
 }
-#ImageTextDondy
+#ImageStrelka4
 {
    border: 0px #000000 solid;
    padding: 0px 0px 0px 0px;
@@ -56,73 +56,37 @@ body
    width: 100%;
    height: 100%;
 }
-#ImageStekloDondy
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#ImageKnopka_steklo
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#ImageMenuGorDondykara
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#ImageMenuDondy
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#ImageMenuVesya
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#ImageMenuZuy
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#ImageStrelka1
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#LayerStrelkaNazad1
+#LayerStrelkaNazad4
 {
    background-color: transparent;
    background-image: none;
+}
+#ImageGuryakar
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageTextGuryakar
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageStekloGuryakar
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Layer1
 {
@@ -143,10 +107,10 @@ body
    overflow: auto;
    resize: none;
 }
-#LayerTextGorDondy .modal-content
+#LayerTextGorGurya .modal-content
 {
    background-color: transparent;
-   background-image: url(../images/page1_LayerTextGorDondy_bkgrnd.png);
+   background-image: url(../images/page4_LayerTextGorGurya_bkgrnd.png);
    background-repeat: repeat;
    background-position: left top;
    border: 5px #CCCCCC dashed;
@@ -156,18 +120,18 @@ body
    box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
    overflow: visible;
 }
-#LayerTextGorDondy.fade
+#LayerTextGorGurya.fade
 {
    opacity: 0;
    -webkit-transition: opacity .15s linear;
    -o-transition: opacity .15s linear;
    transition: opacity .15s linear;
 }
-#LayerTextGorDondy.fade.in
+#LayerTextGorGurya.fade.in
 {
    opacity: 1;
 }
-#LayerTextGorDondy.modal
+#LayerTextGorGurya.modal
 {
    position: fixed;
    top: 0px;
@@ -180,48 +144,48 @@ body
    -webkit-overflow-scrolling: touch;
    outline: 0;
 }
-#LayerTextGorDondy .modal-open .modal
+#LayerTextGorGurya .modal-open .modal
 {
    overflow-x: hidden;
    overflow-y: auto;
 }
-#LayerTextGorDondy .modal-open
+#LayerTextGorGurya .modal-open
 {
    overflow: hidden;
 }
-#LayerTextGorDondy .modal-dialog
+#LayerTextGorGurya .modal-dialog
 {
    position: relative;
    width: 1059px;
    margin: 30px auto;
 }
-#LayerTextGorDondy .modal-content
+#LayerTextGorGurya .modal-content
 {
    position: relative;
    -webkit-background-clip: padding-box;
    background-clip: padding-box;
    outline: 0;
 }
-#LayerTextGorDondy .modal-header
+#LayerTextGorGurya .modal-header
 {
    min-height: 16px;
    padding: 15px;
    border-bottom: 1px solid #CCCCCC;
 }
-#LayerTextGorDondy .modal-title
+#LayerTextGorGurya .modal-title
 {
    color: #CCCCCC;
    font-size: 18px;
    font-weight: 500;
    margin: 0;
 }
-#LayerTextGorDondy .modal-body
+#LayerTextGorGurya .modal-body
 {
    position: relative;
    width: 1059px;
    height: 708px;
 }
-#LayerTextGorDondy .close
+#LayerTextGorGurya .close
 {
    float: right;
    font-size: 21px;
@@ -286,159 +250,6 @@ body
    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
    outline: 0;
-}
-#ImageMenuLegDondykara
-{
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#TextArea1
-{
-   border: 0px #CCCCCC solid;
-   background-color: transparent;
-   background-image: none;
-   color :#4F4F4F;
-   font-family: Tahoma;
-   font-weight: normal;
-   font-size: 19px;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-   overflow: auto;
-   resize: none;
-}
-#TextArea1:focus
-{
-   border-color: #4F4F4F;
-   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
-   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
-   outline: 0;
-}
-#LayerTextLegDondy .modal-content
-{
-   background-color: transparent;
-   background-image: url(../images/page1_LayerTextLegDondy_bkgrnd.png);
-   background-repeat: repeat;
-   background-position: left top;
-   border: 5px #CCCCCC dashed;
-   border-radius: 6px;
-   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
-   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
-   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
-   overflow: visible;
-}
-#LayerTextLegDondy.fade
-{
-   opacity: 0;
-   -webkit-transition: opacity .15s linear;
-   -o-transition: opacity .15s linear;
-   transition: opacity .15s linear;
-}
-#LayerTextLegDondy.fade.in
-{
-   opacity: 1;
-}
-#LayerTextLegDondy.modal
-{
-   position: fixed;
-   top: 0px;
-   right: 0px;
-   bottom: 0px;
-   left: 0px;
-   z-index: 1050;
-   display: none;
-   overflow: hidden;
-   -webkit-overflow-scrolling: touch;
-   outline: 0;
-}
-#LayerTextLegDondy .modal-open .modal
-{
-   overflow-x: hidden;
-   overflow-y: auto;
-}
-#LayerTextLegDondy .modal-open
-{
-   overflow: hidden;
-}
-#LayerTextLegDondy .modal-dialog
-{
-   position: relative;
-   width: 1059px;
-   margin: 30px auto;
-}
-#LayerTextLegDondy .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#LayerTextLegDondy .modal-header
-{
-   min-height: 16px;
-   padding: 15px;
-   border-bottom: 1px solid #CCCCCC;
-}
-#LayerTextLegDondy .modal-title
-{
-   color: #CCCCCC;
-   font-size: 18px;
-   font-weight: 500;
-   margin: 0;
-}
-#LayerTextLegDondy .modal-body
-{
-   position: relative;
-   width: 1059px;
-   height: 503px;
-}
-#LayerTextLegDondy .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #CCCCCC;
-   text-shadow: 0px 1px 0px #fff;
-   filter: alpha(opacity=50);
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 15px 15px 0px 0px;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0px;
-   right: 0px;
-   bottom: 0px;
-   left: 0px;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   filter: alpha(opacity=0);
-   opacity: 0;
-   -webkit-transition: opacity .15s linear;
-   -o-transition: opacity .15s linear;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.in
-{
-   filter: alpha(opacity=50);
-   opacity: 0.5;
-}
-.modal-open
-{
-   overflow: hidden;
 }
 .loader {
  background: none repeat scroll 0 0 #007622;
