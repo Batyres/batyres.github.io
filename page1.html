@@ -8,14 +8,14 @@
 <link href="css/page1.css" rel="stylesheet">
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/wb.stickylayer.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
+<script src="js/wb.lazyload.min.js"></script>
 <script src="js/transition.min.js"></script>
 <script src="js/modal.min.js"></script>
-<script src="js/wb.rotate.min.js"></script>
 <script src="js/wwb12.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $("#LayerZabor2").stickylayer({orientation: 8, position: [0, 0], delay: 1500});
    $("#LayerObschiy4").stickylayer({orientation: 5, position: [0, 0], delay: 500});
    $("#LayerStrelkaNazad1").stickylayer({orientation: 1, position: [0, 0], delay: 1000});
    $("a[href*='#LayerTextGorDondy']").click(function(event)
@@ -34,17 +34,17 @@ $(window).load(function() {
  $(".loader").delay(400).fadeOut("slow");
 
 });
+   $('img[data-src]').lazyload();
 });
 </script>
 </head>
 <body>
-<div id="LayerText2" style="position:absolute;text-align:center;left:31.5464%;top:1578px;width:779px;height:485px;z-index:21;">
-<div id="LayerText2_Container" style="width:779px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<textarea name="TextArea1" id="TextArea2" style="position:absolute;left:16px;top:26px;width:738px;height:430px;z-index:0;" rows="16" cols="72" readonly disabled spellcheck="false">Идна остался на отцовом угодье - Иднакар. Сам отец, Донды, с младшими сыновьями отправился вверх по реке Пызеп, в верстах пятнадцати к северо-западу основал себе новое городище - Дондыкар. Гурья выбрал для себя крутую гору выше по течению реки Чепцы, городище - Гурьякар.</textarea>
+<div id="LayerZabor2" style="position:absolute;text-align:left;left:0px;top:906px;width:1124px;height:883px;z-index:19;">
+<div id="wb_ImageZabor2" style="position:absolute;left:0px;top:80px;width:1088px;height:793px;z-index:0;">
+<img src="images/Zabor3.png" id="ImageZabor2" alt=""></div>
 </div>
-</div>
-<div id="LayerObschiy4" style="position:absolute;text-align:left;left:0px;top:187px;width:1528px;height:1113px;z-index:22;">
-<div id="LayerGlavnyi4" style="position:absolute;text-align:center;left:0%;top:0px;width:573px;height:502px;z-index:6;">
+<div id="LayerObschiy4" style="position:absolute;text-align:left;left:0px;top:187px;width:1528px;height:1113px;z-index:20;">
+<div id="LayerGlavnyi4" style="position:absolute;text-align:center;left:0%;top:0px;width:573px;height:502px;z-index:5;">
 <div id="LayerGlavnyi4_Container" style="width:573px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_ImageDondy" style="position:absolute;left:68px;top:36px;width:433px;height:433px;z-index:1;">
 <img src="images/dondykar.png" id="ImageDondy" alt=""></div>
@@ -52,28 +52,26 @@ $(window).load(function() {
 <img src="images/TextDondy.png" id="ImageTextDondy" alt=""></div>
 <div id="wb_ImageStekloDondy" style="position:absolute;left:70px;top:34px;width:433px;height:433px;z-index:3;">
 <img src="images/knopka_steklo.png" id="ImageStekloDondy" alt=""></div>
-<div id="wb_ImageKnopka_steklo" style="position:absolute;left:70px;top:34px;width:433px;height:433px;visibility:hidden;z-index:4;">
-<a href="#" onclick="Animate('ImageGuryakar', '1023', '45', '', '', '', 1500, '');Animate('ImageTextGuryakar', '1128', '117', '', '', '', 1500, '');Animate('ImageStekloGuryakar', '1023', '45', '', '', '', 1500, '');Animate('LayerText1', '', '-500', '', '', '', 1500, '');Animate('LayerText2', '430', '600', '', '', '', 2000, '');ShowObjectWithEffect('ImageSoldyr', 0, 'fade', 2000);Animate('LayerGlavnyi4', '', '10', '', '', '', 2000, '');ShowObjectWithEffect('ImageText_soldyr', 0, 'dropup', 600);ShowObjectWithEffect('ImageImiaIdna', 1, 'dropdown', 1000);Animate('wb_ImageDondy', '550', '45', '', '', '', 1500, '');Animate('wb_ImageStekloDondy', '550', '45', '', '', '', 1500, '');Animate('wb_ImageTextDondy', '621', '140', '', '', '', 1500, '');return false;"><img src="images/knopka_steklo.png" id="ImageKnopka_steklo" alt=""></a></div>
 </div>
 </div>
-<div id="wb_ImageMenuZuy" style="position:absolute;left:573px;top:363px;width:337px;height:82px;z-index:7;">
+<div id="wb_ImageMenuZuy" style="position:absolute;left:573px;top:363px;width:337px;height:82px;z-index:6;">
 <a href="./page6.html"><img src="images/LegendaZui.png" id="ImageMenuZuy" alt=""></a></div>
-<div id="wb_ImageMenuVesya" style="position:absolute;left:573px;top:471px;width:398px;height:80px;z-index:8;">
+<div id="wb_ImageMenuVesya" style="position:absolute;left:573px;top:471px;width:398px;height:80px;z-index:7;">
 <a href="./page5.html"><img src="images/LegendaVesya.png" id="ImageMenuVesya" alt=""></a></div>
-<div id="wb_ImageMenuDondy" style="position:absolute;left:573px;top:269px;width:300px;height:83px;z-index:9;">
+<div id="wb_ImageMenuDondy" style="position:absolute;left:573px;top:269px;width:300px;height:83px;z-index:8;">
 <a href="./page8.html"><img src="images/Dondynci.png" id="ImageMenuDondy" alt=""></a></div>
-<div id="wb_ImageMenuGorDondykara" style="position:absolute;left:573px;top:58px;width:615px;height:84px;z-index:10;">
+<div id="wb_ImageMenuGorDondykara" style="position:absolute;left:573px;top:58px;width:615px;height:84px;z-index:9;">
 <a href="#" onclick="$('#LayerTextGorDondy').modal('show');return false;"><img src="images/GorodisheDondykara.png" id="ImageMenuGorDondykara" alt=""></a></div>
-<div id="Layer1" style="position:absolute;text-align:center;left:35.0515%;top:577px;width:666px;height:485px;z-index:11;">
+<div id="Layer1" style="position:absolute;text-align:center;left:35.0515%;top:577px;width:666px;height:485px;z-index:10;">
 <div id="Layer1_Container" style="width:666px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<textarea name="TextArea1" id="TextArea3" style="position:absolute;left:16px;top:26px;width:618px;height:430px;z-index:5;" rows="16" cols="60" readonly disabled spellcheck="false">Предводитель племени Ватка, Донды батыр, по преданиям возглавивший продвижение с реки Вятки на реку Чепцу и обосновавший столицу чепецких удмуртов на горе Солдырь. Вследствие раздела с сыновьями переселился на основанный им Дондыкар. </textarea>
+<textarea name="TextArea1" id="TextArea3" style="position:absolute;left:16px;top:26px;width:618px;height:430px;z-index:4;" rows="16" cols="60" readonly disabled spellcheck="false">Предводитель племени Ватка, Донды батыр, по преданиям возглавивший продвижение с реки Вятки на реку Чепцу и обосновавший столицу чепецких удмуртов на горе Солдырь. Вследствие раздела с сыновьями переселился на основанный им Дондыкар. </textarea>
 </div>
 </div>
-<div id="wb_ImageMenuLegDondykara" style="position:absolute;left:573px;top:166px;width:569px;height:84px;z-index:12;">
+<div id="wb_ImageMenuLegDondykara" style="position:absolute;left:573px;top:166px;width:569px;height:84px;z-index:11;">
 <a href="#" onclick="$('#LayerTextLegDondy').modal('show');return false;"><img src="images/LegendaDondy.png" id="ImageMenuLegDondykara" alt=""></a></div>
 </div>
-<div id="LayerStrelkaNazad1" style="position:absolute;text-align:left;left:1085px;top:1px;width:180px;height:99px;z-index:23;">
-<div id="wb_ImageStrelka1" style="position:absolute;left:20px;top:24px;width:141px;height:51px;z-index:17;">
+<div id="LayerStrelkaNazad1" style="position:absolute;text-align:left;left:1085px;top:1px;width:180px;height:99px;z-index:21;">
+<div id="wb_ImageStrelka1" style="position:absolute;left:20px;top:24px;width:141px;height:51px;z-index:15;">
 <a href="./page2.html"><img src="images/Snrelka2.png" id="ImageStrelka1" alt=""></a></div>
 </div>
 <div id="LayerTextGorDondy" class="modal fade" role="dialog" style="text-align:left;">
@@ -81,7 +79,7 @@ $(window).load(function() {
 <div class="modal-content">
 <div class="modal-body">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<textarea name="TextArea2" id="TextArea37" style="position:absolute;left:46px;top:46px;width:946px;height:600px;z-index:19;" rows="25" cols="116" readonly spellcheck="false">Дондыкарское городище - городище северных удмуртов IX XIII в.в; археологический памятник, объект культурного наследия республиканского значения. Расположено в 1 км. к северо-востоку от современной деревни Дондыкар Глазовского района в верховьях р. Дондыкарка, правом притоке р. Пызеп. (С удмуртского языка Дондыкар - город богатыря Донды). Занимает мыс высотой около 10м, укреплено небольшим валом. Площадь 22 тыс. м2. Городище исследовалось в ходе раскопок 1926 - 1939 годы под руководством А. П. Смирнова. Были вскрыты 19 жилищ, мастерские, сараи, очаги, собран богатый вещевой материал, характерный для Чепецкой культуры. Исследовано частично. В начале первого тысячелетия до н.э. на территории Удмуртии появляется новый тип поселений городища. Возводили их на высоких берегах рек, на мысах, отделённых крутыми обрывами. С напольной (около поля) стороны, на месте соединения мыса с берегом, городища укреплялись высоким валом и рвом, а позднее и 2-3 валами. Дондыкарское городище, хотя и значительное по площади, но имело только один небольшой вал. Система укреплений городища состояла из вала высотой 4,30 м, шириной основания 5 м и частоколом из брёвен диаметром 0,25-0,30 см. Вал был насыпан из плотно утрамбованной глины, с внутренней стороны облицован деревянной стеной из горизонтально уложенных брёвен, закрепленных вертикальными столбами. По раскопкам на городище были реконструированы жилища, представлявшие собой срубные постройки прямоугольной формы. Длинной стороной они были ориентированы по линии север - юг. Постройки устанавливались прямо на грунт, без фундамента. Сруб был невысоким, 7-11 венцов. Потолка не было, поэтому внутри дом не казался слишком низким. Пол был дощатым. В центре устраивалось основание под очаг из плотно утрамбованной сухой глины. Чтобы глина не рассыпалась, её заключали в деревянную раму. Дым выходил через отверстие в крыше. Крыша могла быть одно-двускатной. Устраивались нары, которые занимали половину дома (в длину), а в ширину достигали 1,8-2 м. В жилище имелась хозяйственная яма. 
+<textarea name="TextArea2" id="TextArea37" style="position:absolute;left:46px;top:46px;width:946px;height:600px;z-index:17;" rows="25" cols="116" readonly spellcheck="false">Дондыкарское городище - городище северных удмуртов IX XIII в.в; археологический памятник, объект культурного наследия республиканского значения. Расположено в 1 км. к северо-востоку от современной деревни Дондыкар Глазовского района в верховьях р. Дондыкарка, правом притоке р. Пызеп. (С удмуртского языка Дондыкар - город богатыря Донды). Занимает мыс высотой около 10м, укреплено небольшим валом. Площадь 22 тыс. м2. Городище исследовалось в ходе раскопок 1926 - 1939 годы под руководством А. П. Смирнова. Были вскрыты 19 жилищ, мастерские, сараи, очаги, собран богатый вещевой материал, характерный для Чепецкой культуры. Исследовано частично. В начале первого тысячелетия до н.э. на территории Удмуртии появляется новый тип поселений городища. Возводили их на высоких берегах рек, на мысах, отделённых крутыми обрывами. С напольной (около поля) стороны, на месте соединения мыса с берегом, городища укреплялись высоким валом и рвом, а позднее и 2-3 валами. Дондыкарское городище, хотя и значительное по площади, но имело только один небольшой вал. Система укреплений городища состояла из вала высотой 4,30 м, шириной основания 5 м и частоколом из брёвен диаметром 0,25-0,30 см. Вал был насыпан из плотно утрамбованной глины, с внутренней стороны облицован деревянной стеной из горизонтально уложенных брёвен, закрепленных вертикальными столбами. По раскопкам на городище были реконструированы жилища, представлявшие собой срубные постройки прямоугольной формы. Длинной стороной они были ориентированы по линии север - юг. Постройки устанавливались прямо на грунт, без фундамента. Сруб был невысоким, 7-11 венцов. Потолка не было, поэтому внутри дом не казался слишком низким. Пол был дощатым. В центре устраивалось основание под очаг из плотно утрамбованной сухой глины. Чтобы глина не рассыпалась, её заключали в деревянную раму. Дым выходил через отверстие в крыше. Крыша могла быть одно-двускатной. Устраивались нары, которые занимали половину дома (в длину), а в ширину достигали 1,8-2 м. В жилище имелась хозяйственная яма. 
 Ведущую роль в жизни поселения играли охота, земледелие и животноводство. 
 О том, что для древних жителей городища большое значение имела охота, свидетельствуют результаты специального изучения состава костей животных, найденных на городище. 
 Обнаруженные при раскопках образцы зерен представляли собой смесь из разных культур. Учёные-биологи полагают, что в средние века земледельцы не считали нужным возделывать их раздельно, так как многокомпонентный состав зерна гарантировал устойчивый урожай при любых погодных условиях. Это не мешало его использованию при приготовлении каш и пресных лепёшек.
@@ -103,7 +101,7 @@ $(window).load(function() {
 <div class="modal-content">
 <div class="modal-body">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<textarea name="TextArea2" id="TextArea1" style="position:absolute;left:46px;top:46px;width:946px;height:368px;z-index:20;" rows="15" cols="116" readonly spellcheck="false">После смерти бог превратил Донды в белого лебедя, и он до настоящего времени покровительствует всем удмуртам, которые о нём помнят. 
+<textarea name="TextArea2" id="TextArea1" style="position:absolute;left:46px;top:46px;width:946px;height:368px;z-index:18;" rows="15" cols="116" readonly spellcheck="false">После смерти бог превратил Донды в белого лебедя, и он до настоящего времени покровительствует всем удмуртам, которые о нём помнят. 
 Так, удмуртский эпос с присущей всему народному творчеству глубокой красотой описывает возникновение на нашей земле поселений, ставших центрами развития культуры, ремесла, торговли.
 Образ белого лебедя нашёл отражение на гербе Удмуртской Республики. Имена былинных удмуртских богатырей продолжают жить в названиях ряда деревень на реке Чепце Иднакар, Дондыкар, Весьякар, Зуйкар, Донды, Утэм, Зуйыр, Чибинь, Эбга. Из сохранившихся археологических памятников, связанных с батырами, в настоящее время в Глазовском районе выделяют 8 городищ. Среди них самые известные Иднакар и Дондыкар, датирующиеся IX-XIII веками.
 </textarea>
