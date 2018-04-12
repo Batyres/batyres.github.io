@@ -22,6 +22,11 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#LayerTextGorEbga').offset().top }, 600, 'linear');
    });
+   $("a[href*='#Layer2TextEbga']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer2TextEbga').offset().top }, 600, 'linear');
+   });
 $(window).load(function() {
 
  $(".loader_inner").fadeOut();
@@ -33,27 +38,29 @@ $(window).load(function() {
 </script>
 </head>
 <body onload="Animate('LayerStrelkaNazad4', '20', '', '', '', '', 2000, '');return false;">
-<div id="LayerZabor5" style="position:absolute;text-align:left;left:0px;top:46px;width:1124px;height:847px;z-index:10;">
+<div id="LayerZabor5" style="position:absolute;text-align:left;left:0px;top:46px;width:1124px;height:847px;z-index:12;">
 <div id="wb_ImageZabor5" style="position:absolute;left:0px;top:8px;width:1088px;height:793px;z-index:0;">
 <img src="images/Zabor6.png" id="ImageZabor5" alt=""></div>
 </div>
-<div id="LayerObschiy6" style="position:absolute;text-align:left;left:0px;top:55px;width:1181px;height:717px;z-index:11;">
+<div id="LayerObschiy6" style="position:absolute;text-align:left;left:0px;top:55px;width:1181px;height:783px;z-index:13;">
 <div id="LayerGlavnyi6" style="position:absolute;text-align:center;left:0px;top:0px;width:573px;height:502px;z-index:3;">
 <div id="LayerGlavnyi6_Container" style="width:573px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_ImageKrugEbgakar" style="position:absolute;left:73px;top:35px;width:433px;height:433px;z-index:1;">
 <img src="images/KrugUbgakar.png" id="ImageKrugEbgakar" alt=""></div>
 </div>
 </div>
-<div id="wb_ImageMenuGorodicheVesya" style="position:absolute;left:581px;top:149px;width:543px;height:89px;z-index:4;">
+<div id="wb_ImageMenuGorodicheVesya" style="position:absolute;left:581px;top:119px;width:543px;height:89px;z-index:4;">
 <a href="#" onclick="$('#LayerTextGorEbga').modal('show');return false;"><img src="images/GorodicheEbgakar.png" id="ImageMenuGorodicheVesya" alt=""></a></div>
-<div id="Layer1" style="position:absolute;text-align:center;left:551px;top:268px;width:599px;height:410px;z-index:5;">
+<div id="Layer1" style="position:absolute;text-align:center;left:551px;top:318px;width:599px;height:410px;z-index:5;">
 <div id="Layer1_Container" style="width:599px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <textarea name="TextArea1" id="TextArea3" style="position:absolute;left:27px;top:26px;width:540px;height:327px;z-index:2;" rows="12" cols="52" readonly disabled spellcheck="false">Младший сын Донды батыра, Зуй, имел удел по реке Пызеп. Был женат на красавице Эбге.</textarea>
 </div>
 </div>
+<div id="wb_Image1" style="position:absolute;left:581px;top:236px;width:137px;height:89px;z-index:6;">
+<a href="#" onclick="$('#Layer2TextEbga').modal('show');return false;"><img src="images/LegendaEbga.png" id="Image1" alt=""></a></div>
 </div>
-<div id="LayerStrelkaNazad4" style="position:absolute;text-align:left;left:1085px;top:1px;width:180px;height:99px;z-index:12;">
-<div id="wb_ImageStrelka4" style="position:absolute;left:20px;top:24px;width:141px;height:51px;z-index:7;">
+<div id="LayerStrelkaNazad4" style="position:absolute;text-align:left;left:1085px;top:1px;width:180px;height:99px;z-index:14;">
+<div id="wb_ImageStrelka4" style="position:absolute;left:20px;top:24px;width:141px;height:51px;z-index:8;">
 <a href="./page1.html"><img src="images/Snrelka2.png" id="ImageStrelka4" alt=""></a></div>
 </div>
 <div id="LayerTextGorEbga" class="modal fade" role="dialog" style="text-align:left;">
@@ -61,7 +68,7 @@ $(window).load(function() {
 <div class="modal-content">
 <div class="modal-body">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<textarea name="TextArea2" id="TextArea37" style="position:absolute;left:46px;top:46px;width:946px;height:600px;z-index:9;" rows="25" cols="116" readonly spellcheck="false">Краснослудское (Эбгакар) городище археологический памятник северных удмуртов конца I тыс. н. э. Располагается в 1,5 км. От деревни Нижняя (Красная) Слудка Глазовского района вниз по течению реки Чепцы (правый берег). Площадка размером 2600 м занимает небольшой мыс, укрепленный двумя валами. Наружный вал сохранился не полностью находится на расстоянии 30 м. от внутреннего, длина его 42 м и высота до 2 м. Культурный слой на площадке достигает толщины 70 см и распространяется также за ватами, где, как и на площадке, находили разные вещи. 
+<textarea name="TextArea2" id="TextArea37" style="position:absolute;left:46px;top:46px;width:946px;height:600px;z-index:10;" rows="25" cols="116" readonly spellcheck="false">Краснослудское (Эбгакар) городище археологический памятник северных удмуртов конца I тыс. н. э. Располагается в 1,5 км. От деревни Нижняя (Красная) Слудка Глазовского района вниз по течению реки Чепцы (правый берег). Площадка размером 2600 м занимает небольшой мыс, укрепленный двумя валами. Наружный вал сохранился не полностью находится на расстоянии 30 м. от внутреннего, длина его 42 м и высота до 2 м. Культурный слой на площадке достигает толщины 70 см и распространяется также за ватами, где, как и на площадке, находили разные вещи. 
 Из списка с дозорных книг воеводы князя Фёдора Андреевича Звенигородского, Василия Терентьевича Жемчужникова и дьяка Михаила Ординцова в 1615 году можно обнаружить такое название, как «погост на Красной Слудке в составе Карийского стана Хлыновского уезда. Селение относится к древнейшим на Чепце; вблизи деревни находится городище Эбгакар». 
 ЭБГАКАР - название горы с городищем. Эбга - воршудно-родовое имя
 + кар 'гнездо; городище, город'; 'городище рода Эбга'. 
@@ -72,6 +79,16 @@ $(window).load(function() {
 Из книги: В краю Донды-батыра: достопримечательности Глазовского района: сборник краеведческих материалов / [сост. З. П. Перминова; Муниципальное учреждение культуры "Глазовская централизованная библиотечная система" муниципального образования "Глазовский район"]. - Глазов: ООО "Центр-сервис", 2014. - 68 с.: фото.
 
 </textarea>
+</div>
+</div>
+</div>
+</div>
+<div id="Layer2TextEbga" class="modal fade" role="dialog" style="text-align:left;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<textarea name="TextArea2" id="TextArea1" style="position:absolute;left:46px;top:46px;width:946px;height:600px;z-index:11;" rows="25" cols="116" readonly spellcheck="false">Донды, за одного из своих сыновей по имени Зуй, взял умную и красивую девушку Эбгу. Он настолько полюбил свою молодую сноху, что сыновья заподозрили его в противозаконной связи с нею, поссорились с отцом и ушли от него в разные стороны. Эбга убила своего мужа, мстя ему за позорное обвинение в кровосмешении со свёкром. Донды, узнав об этом, прогнал её из своего дома. Тогда она со своими приближёнными основала Эбга-кар. Через несколько лет, будучи уже вдовой, родила Эбга ещё одного сына. Донды назвал своего незаконного внука «Чибинь» (что на удмуртском языке значит: «комар», или «ничтожный человек, человек, не заслуживающий уважения»), дав ему участок земли подальше от своего городища. Эбга, возмущённая этим, приказала приближенным убить своего свёкра. Но тот, умирая, успел проклясть Эбгу, чтобы она вечно жила в сырых и тёмных подземельях Эбга-кара. Раз в году Эбга выходит из своего подземного жилища на Эбгакаре, садится на большой камень, сушит лохмотья одежды и расчесывает зеленые космы волос. </textarea>
 </div>
 </div>
 </div>
