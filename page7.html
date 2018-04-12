@@ -4,20 +4,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9">
 <meta charset="utf-8">
 <title>Городище Утэмкар</title>
-<link href="css/batyres.css" rel="stylesheet">
+<link href="css/batyres3.css" rel="stylesheet">
 <link href="css/page7.css" rel="stylesheet">
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/wb.stickylayer.min.js"></script>
 <script src="js/wb.lazyload.min.js"></script>
 <script src="js/transition.min.js"></script>
 <script src="js/modal.min.js"></script>
+<script src="js/wb.rotate.min.js"></script>
 <script src="js/wwb12.min.js"></script>
 <script>
 $(document).ready(function()
 {
    $("#LayerZabor6").stickylayer({orientation: 8, position: [0, 0], delay: 1500});
-   $("#LayerObschiy7").stickylayer({orientation: 5, position: [0, 0], delay: 500});
-   $("#LayerStrelkaNazad4").stickylayer({orientation: 1, position: [0, 0], delay: 1000});
    $("a[href*='#LayerTextGorUtem']").click(function(event)
    {
       event.preventDefault();
@@ -38,13 +37,13 @@ $(window).load(function() {
 });
 </script>
 </head>
-<body>
-<div id="LayerZabor6" style="position:absolute;text-align:left;left:0px;top:792px;width:1154px;height:883px;z-index:9;">
+<body onload="Animate('LayerStrelkaNazad4', '20', '', '', '', '', 2000, '');return false;">
+<div id="LayerZabor6" style="position:absolute;text-align:left;left:0px;top:76px;width:1115px;height:817px;z-index:9;">
 <div id="wb_ImageZabor6" style="position:absolute;left:0px;top:0px;width:1088px;height:793px;z-index:0;">
 <img src="images/Zabor7.png" id="ImageZabor6" alt=""></div>
 </div>
-<div id="LayerObschiy7" style="position:absolute;text-align:left;left:0px;top:187px;width:1528px;height:1043px;z-index:10;">
-<div id="LayerGlavnyi7" style="position:absolute;text-align:center;left:0%;top:0px;width:573px;height:502px;z-index:2;">
+<div id="LayerObschiy7" style="position:absolute;text-align:left;left:0px;top:51px;width:1221px;height:546px;z-index:10;">
+<div id="LayerGlavnyi7" style="position:absolute;text-align:center;left:0px;top:0px;width:573px;height:502px;z-index:2;">
 <div id="LayerGlavnyi7_Container" style="width:573px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_ImageKrugUtem" style="position:absolute;left:73px;top:35px;width:433px;height:433px;z-index:1;">
 <img src="images/KrugUtemkar.png" id="ImageKrugUtem" alt=""></div>

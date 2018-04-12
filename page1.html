@@ -4,20 +4,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9">
 <meta charset="utf-8">
 <title>Городище Дондыкар</title>
-<link href="css/batyres.css" rel="stylesheet">
+<link href="css/batyres3.css" rel="stylesheet">
 <link href="css/page1.css" rel="stylesheet">
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/wb.stickylayer.min.js"></script>
 <script src="js/wb.lazyload.min.js"></script>
 <script src="js/transition.min.js"></script>
 <script src="js/modal.min.js"></script>
+<script src="js/wb.rotate.min.js"></script>
 <script src="js/wwb12.min.js"></script>
 <script>
 $(document).ready(function()
 {
    $("#LayerZabor2").stickylayer({orientation: 8, position: [0, 0], delay: 1500});
-   $("#LayerObschiy4").stickylayer({orientation: 5, position: [0, 0], delay: 500});
-   $("#LayerStrelkaNazad1").stickylayer({orientation: 1, position: [0, 0], delay: 1000});
    $("a[href*='#LayerTextGorDondy']").click(function(event)
    {
       event.preventDefault();
@@ -38,12 +37,12 @@ $(window).load(function() {
 });
 </script>
 </head>
-<body>
-<div id="LayerZabor2" style="position:absolute;text-align:left;left:0px;top:906px;width:1124px;height:883px;z-index:19;">
+<body onload="Animate('LayerStrelkaNazad1', '20', '', '', '', '', 2000, '');return false;">
+<div id="LayerZabor2" style="position:absolute;text-align:left;left:0px;top:177px;width:1124px;height:883px;z-index:19;">
 <div id="wb_ImageZabor2" style="position:absolute;left:0px;top:80px;width:1088px;height:793px;z-index:0;">
 <img src="images/Zabor3.png" id="ImageZabor2" alt=""></div>
 </div>
-<div id="LayerObschiy4" style="position:absolute;text-align:left;left:0px;top:187px;width:1528px;height:1113px;z-index:20;">
+<div id="LayerObschiy4" style="position:absolute;text-align:left;left:0px;top:76px;width:1227px;height:948px;z-index:20;">
 <div id="LayerGlavnyi4" style="position:absolute;text-align:center;left:0%;top:0px;width:573px;height:502px;z-index:5;">
 <div id="LayerGlavnyi4_Container" style="width:573px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_ImageDondy" style="position:absolute;left:68px;top:36px;width:433px;height:433px;z-index:1;">
@@ -54,20 +53,20 @@ $(window).load(function() {
 <img src="images/knopka_steklo.png" id="ImageStekloDondy" alt=""></div>
 </div>
 </div>
-<div id="wb_ImageMenuZuy" style="position:absolute;left:573px;top:363px;width:337px;height:82px;z-index:6;">
+<div id="wb_ImageMenuZuy" style="position:absolute;left:573px;top:343px;width:337px;height:82px;z-index:6;">
 <a href="./page6.html"><img src="images/LegendaZui.png" id="ImageMenuZuy" alt=""></a></div>
-<div id="wb_ImageMenuVesya" style="position:absolute;left:573px;top:471px;width:398px;height:80px;z-index:7;">
+<div id="wb_ImageMenuVesya" style="position:absolute;left:573px;top:451px;width:398px;height:80px;z-index:7;">
 <a href="./page5.html"><img src="images/LegendaVesya.png" id="ImageMenuVesya" alt=""></a></div>
-<div id="wb_ImageMenuDondy" style="position:absolute;left:573px;top:269px;width:300px;height:83px;z-index:8;">
+<div id="wb_ImageMenuDondy" style="position:absolute;left:573px;top:249px;width:300px;height:83px;z-index:8;">
 <a href="./page8.html"><img src="images/Dondynci.png" id="ImageMenuDondy" alt=""></a></div>
-<div id="wb_ImageMenuGorDondykara" style="position:absolute;left:573px;top:58px;width:615px;height:84px;z-index:9;">
+<div id="wb_ImageMenuGorDondykara" style="position:absolute;left:573px;top:38px;width:615px;height:84px;z-index:9;">
 <a href="#" onclick="$('#LayerTextGorDondy').modal('show');return false;"><img src="images/GorodisheDondykara.png" id="ImageMenuGorDondykara" alt=""></a></div>
-<div id="Layer1" style="position:absolute;text-align:center;left:35.0515%;top:577px;width:666px;height:485px;z-index:10;">
+<div id="Layer1" style="position:absolute;text-align:center;left:540px;top:537px;width:666px;height:350px;z-index:10;">
 <div id="Layer1_Container" style="width:666px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<textarea name="TextArea1" id="TextArea3" style="position:absolute;left:16px;top:26px;width:618px;height:430px;z-index:4;" rows="16" cols="60" readonly disabled spellcheck="false">Предводитель племени Ватка, Донды батыр, по преданиям возглавивший продвижение с реки Вятки на реку Чепцу и обосновавший столицу чепецких удмуртов на горе Солдырь. Вследствие раздела с сыновьями переселился на основанный им Дондыкар. </textarea>
+<textarea name="TextArea1" id="TextArea3" style="position:absolute;left:16px;top:26px;width:618px;height:283px;z-index:4;" rows="10" cols="60" readonly disabled spellcheck="false">Предводитель племени Ватка, Донды батыр, по преданиям возглавивший продвижение с реки Вятки на реку Чепцу и обосновавший столицу чепецких удмуртов на горе Солдырь. Вследствие раздела с сыновьями переселился на основанный им Дондыкар. </textarea>
 </div>
 </div>
-<div id="wb_ImageMenuLegDondykara" style="position:absolute;left:573px;top:166px;width:569px;height:84px;z-index:11;">
+<div id="wb_ImageMenuLegDondykara" style="position:absolute;left:573px;top:146px;width:569px;height:84px;z-index:11;">
 <a href="#" onclick="$('#LayerTextLegDondy').modal('show');return false;"><img src="images/LegendaDondy.png" id="ImageMenuLegDondykara" alt=""></a></div>
 </div>
 <div id="LayerStrelkaNazad1" style="position:absolute;text-align:left;left:1085px;top:1px;width:180px;height:99px;z-index:21;">
