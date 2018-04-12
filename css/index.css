@@ -42,11 +42,6 @@ body
    background-color: #007622;
    background-image: none;
 }
-#Layer1
-{
-   background-color: #007622;
-   background-image: none;
-}
 #LayerGlavnyi
 {
    background-color: transparent;
@@ -217,6 +212,547 @@ body
    top: 0;
    width: 100%;
    height: 100%;
+}
+#wb_ImageDondy
+{
+   position: absolute;
+   left: 68px;
+   top: 36px;
+   width: 433px;
+   height: 433px;
+   z-index: 11;
+}
+#wb_ImageKnopka_steklo
+{
+   position: absolute;
+   left: 70px;
+   top: 34px;
+   width: 433px;
+   height: 433px;
+   z-index: 16;
+}
+#wb_ImageText_dondy_batyr
+{
+   position: absolute;
+   left: 17px;
+   top: 48px;
+   width: 746px;
+   height: 117px;
+   z-index: 18;
+}
+#LayerText_dondy_batyr
+{
+   position: absolute;
+   text-align: left;
+   left: 305px;
+   top: 0px;
+   width: 1079px;
+   height: 212px;
+   z-index: 23;
+}
+#wb_ImageTextDondy
+{
+   position: absolute;
+   left: 137px;
+   top: 133px;
+   width: 293px;
+   height: 84px;
+   z-index: 12;
+}
+#wb_ImageSoldyr
+{
+   position: absolute;
+   left: 70px;
+   top: 35px;
+   width: 433px;
+   height: 433px;
+   z-index: 14;
+}
+#TextArea1
+{
+   position: absolute;
+   left: 136px;
+   top: 26px;
+   width: 618px;
+   height: 314px;
+   z-index: 3;
+}
+#LayerText1
+{
+   position: absolute;
+   text-align: center;
+   visibility: hidden;
+   left: 427px;
+   top: 129px;
+   width: 779px;
+   height: 409px;
+   z-index: 21;
+}
+#LayerText2_Container
+{
+   width: 779px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#TextArea2
+{
+   position: absolute;
+   left: 16px;
+   top: 26px;
+   width: 738px;
+   height: 190px;
+   z-index: 0;
+}
+#LayerText2
+{
+   position: absolute;
+   text-align: center;
+   visibility: hidden;
+   left: 392px;
+   top: 499px;
+   width: 779px;
+   height: 275px;
+   z-index: 20;
+}
+#wb_ImageIdna
+{
+   position: absolute;
+   left: 71px;
+   top: 35px;
+   width: 433px;
+   height: 433px;
+   z-index: 5;
+}
+#wb_ImageImiaIdna
+{
+   position: absolute;
+   left: 177px;
+   top: 107px;
+   width: 239px;
+   height: 84px;
+   z-index: 6;
+}
+#LayerGlavnyi
+{
+   position: absolute;
+   text-align: center;
+   left: 356px;
+   top: 224px;
+   width: 573px;
+   height: 502px;
+   z-index: 22;
+}
+#wb_ImageStekloDondy
+{
+   position: absolute;
+   left: 70px;
+   top: 34px;
+   width: 433px;
+   height: 433px;
+   z-index: 13;
+}
+#LayerKnopka_play
+{
+   position: absolute;
+   text-align: center;
+   left: 98px;
+   top: 63px;
+   width: 379px;
+   height: 379px;
+   z-index: 17;
+   cursor: pointer;
+}
+#LayerText1_Container
+{
+   width: 779px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#LayerKnopka_play_Container
+{
+   width: 379px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_ImageStekloGuryakar
+{
+   position: absolute;
+   left: 70px;
+   top: 34px;
+   width: 433px;
+   height: 433px;
+   z-index: 10;
+}
+#wb_ImageGuryakar
+{
+   position: absolute;
+   left: 71px;
+   top: 35px;
+   width: 433px;
+   height: 433px;
+   z-index: 8;
+}
+#wb_ImageText_soldyr
+{
+   position: absolute;
+   left: 173px;
+   top: 130px;
+   width: 245px;
+   height: 88px;
+   z-index: 15;
+}
+#wb_ImageTextGuryakar
+{
+   position: absolute;
+   left: 179px;
+   top: 106px;
+   width: 239px;
+   height: 72px;
+   z-index: 9;
+}
+#wb_ImageKnopka_play_uzor
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 378px;
+   height: 378px;
+   visibility: hidden;
+   z-index: 4;
+}
+#wb_ImageIdnaSteklo
+{
+   position: absolute;
+   left: 71px;
+   top: 35px;
+   width: 431px;
+   height: 433px;
+   z-index: 7;
+}
+#LayerGlavnyi_Container
+{
+   width: 573px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+@media only screen and (max-width: 969px)
+{
+#wb_ImageTextGuryakar
+{
+   left: 179px;
+   top: 106px;
+   width: 239px;
+   height: 72px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageImiaIdna
+{
+   left: 177px;
+   top: 107px;
+   width: 239px;
+   height: 84px;
+   visibility: visible;
+   display: inline;
+}
+#LayerText2
+{
+   left: 392px;
+   top: 499px;
+   width: 779px;
+   height: 275px;
+   visibility: hidden;
+   display: none;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #007622;
+   background-image: none;
+}
+#LayerText2_Container
+{
+   width: 779px;
+}
+#LayerIdnakar
+{
+   left: 147px;
+   top: -129px;
+   height: 210px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LayerIdnakar
+{
+   width: 26.125%;
+}
+#LayerIdnakar_Container
+{
+   width: 209px;
+}
+#LayerText1
+{
+   left: 427px;
+   top: 129px;
+   width: 779px;
+   height: 409px;
+   visibility: hidden;
+   display: none;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #007622;
+   background-image: none;
+}
+#LayerText1_Container
+{
+   width: 779px;
+}
+#LayerGlavnyi
+{
+   left: 106px;
+   top: 224px;
+   width: 573px;
+   height: 502px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LayerGlavnyi_Container
+{
+   width: 573px;
+}
+#wb_ImageKnopka_play_uzor
+{
+   left: 0px;
+   top: 0px;
+   width: 378px;
+   height: 378px;
+   visibility: hidden;
+   display: none;
+}
+#wb_ImageKnopka_steklo
+{
+   left: 70px;
+   top: 34px;
+   width: 433px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageText_soldyr
+{
+   left: 173px;
+   top: 130px;
+   width: 245px;
+   height: 88px;
+   visibility: visible;
+   display: inline;
+}
+#LayerText_dondy_batyr
+{
+   left: 5px;
+   top: 0px;
+   width: 811px;
+   height: 212px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TextArea1
+{
+   left: 136px;
+   top: 26px;
+   width: 618px;
+   height: 314px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-family: Verdana;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_ImageText_dondy_batyr
+{
+   left: 17px;
+   top: 48px;
+   width: 746px;
+   height: 117px;
+   visibility: visible;
+   display: inline;
+}
+#Extension1
+{
+   left: 0px;
+   top: 0px;
+   width: 100px;
+   height: 100px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image1
+{
+   left: 2px;
+   top: 3px;
+   width: 199px;
+   height: 199px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image2
+{
+   left: 2px;
+   top: 3px;
+   width: 199px;
+   height: 199px;
+   visibility: visible;
+   display: inline;
+}
+#LayerKnopka_play
+{
+   left: 98px;
+   top: 63px;
+   width: 379px;
+   height: 379px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(../images/knopka_play.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+}
+#LayerKnopka_play_Container
+{
+   width: 379px;
+}
+#wb_ImageSoldyr
+{
+   left: 70px;
+   top: 35px;
+   width: 433px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
+#TextArea2
+{
+   left: 16px;
+   top: 26px;
+   width: 738px;
+   height: 190px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-family: Verdana;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_ImageIdna
+{
+   left: 71px;
+   top: 35px;
+   width: 433px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageDondy
+{
+   left: 68px;
+   top: 36px;
+   width: 433px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageStekloDondy
+{
+   left: 70px;
+   top: 34px;
+   width: 433px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageTextDondy
+{
+   left: 137px;
+   top: 133px;
+   width: 293px;
+   height: 84px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageGuryakar
+{
+   left: 71px;
+   top: 35px;
+   width: 433px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageStekloGuryakar
+{
+   left: 70px;
+   top: 34px;
+   width: 433px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
+#wb_ImageIdnaSteklo
+{
+   left: 71px;
+   top: 35px;
+   width: 431px;
+   height: 433px;
+   visibility: visible;
+   display: inline;
+}
 }
 .loader {
  background: none repeat scroll 0 0 #007622;
